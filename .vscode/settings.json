@@ -1,0 +1,28 @@
+{
+    "files.exclude": {
+        "**/*.map": true,
+        "**/.*": true,
+        "**/_*": true,
+        "**/*.lock": true,
+        "**/tsconfig.json": true,
+        "**/declaration.d.ts": true,
+        "**/*.keystore": true,
+        "dist": true,
+        "ios": true,
+        "android": true,
+        ".vscode": true,
+        "node_modules": true,
+        "patches": true,
+        "Gemfile": true,
+        "vendor": true,
+        "LICENSE": true,
+        "metro.config.js": true,
+        "babel.config.js": true,
+        "package.json": false,
+        "package-lock.json": true,
+        "index.js": true,
+        "app.json": true,
+        "jest.config.js": true,
+    },
+    "java.compile.nullAnalysis.mode": "disabled"
+}
